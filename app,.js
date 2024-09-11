@@ -152,7 +152,11 @@ document.write(snack + "<br>")
 document.write("The Current age is :" + current_age + "<br>")
 document.write("The Maximum age is :" + maximum_age + "<br>")
 document.write("Amount of Snack per day : " + amount + "<br>")
-document.write("You will need "+ (maximum_age-current_age)*amount + "<br> <br> <br>" )
+document.write("You will need "+ (maximum_age-current_age)*amount + "<br> <br>" )
+
+document.write("-----------Chapter 05 (Class) ------------ <br> <br> <br>")
+console.log("----------- Chapter 05 End (Class) -----------");
+
 
 // Chapter 06
 // Math Erperetion : Unfamiliar Operetors
@@ -194,12 +198,12 @@ console.log(result);
 // result 3
 
 // q 03
-// var userInput = prompt("User Name")
+var userInput = prompt("User Name")
 
-// // q -4
-// table = 5;
-// var tblInput = +prompt("Enter Table 5")
-// console.log("5 X 2 =" + tblInput*table);
+// q -4
+table = 5;
+var tblInput = +prompt("Enter Table 5")
+console.log("5 X 2 =" + tblInput*table);
 
 // q 05
 document.write("***********Mark Sheet************ <br> <br>")
